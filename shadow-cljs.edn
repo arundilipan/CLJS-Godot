@@ -1,0 +1,17 @@
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[applied-science/js-interop "0.2.7"]]
+
+ :builds
+ {:lib {:target :esm
+        :output-dir "public/js"
+
+        :js-options
+        {:resolve {"godot" {:target :global
+                            :global "godot"}}}
+
+        :modules
+        {:demo {:exports {:hello cljslib.hello/hello
+                          :printRandomVector cljslib.hello/print-random-vector}}}}}}

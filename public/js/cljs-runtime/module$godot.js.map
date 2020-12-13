@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"module$godot.js",
+"lineCount":1,
+"mappings":"AAAAA,cAAA,CAAe,YAAf,CAAiC,QAAQ,CAACC,MAAD,CAAQC,OAAR,CAAgBC,MAAhB,CAAuBC,OAAvB,CAAgC,CACzED,MAAA,CAAOC,OAAP,CAAgBC,KADyD;",
+"sources":["global$module$godot.js"],
+"sourcesContent":["shadow$provide[\"module$godot\"] = function(global,require,module,exports) {\nmodule.exports=(godot);\n};"],
+"names":["shadow$provide","global","require","module","exports","godot"]
+}
