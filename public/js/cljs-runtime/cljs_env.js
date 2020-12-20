@@ -1,5 +1,5 @@
 globalThis.CLOSURE_DEFINES = 
-{"goog.DEBUG":true,"goog.LOCALE":"en","goog.TRANSPILE":"never","goog.ENABLE_DEBUG_LOADER":false}
+{"shadow.cljs.devtools.client.env.repl_pprint":false,"shadow.cljs.devtools.client.env.reload_strategy":"optimized","shadow.cljs.devtools.client.env.devtools_url":"","shadow.cljs.devtools.client.env.autoload":true,"shadow.cljs.devtools.client.env.proc_id":"f3af1eea-ac54-404e-a512-368af7268703","shadow.cljs.devtools.client.env.use_document_protocol":false,"goog.ENABLE_DEBUG_LOADER":false,"shadow.cljs.devtools.client.env.server_port":9630,"shadow.cljs.devtools.client.env.server_token":"b56b65d4-30a2-49f7-ac9d-132e557712be","shadow.cljs.devtools.client.env.use_document_host":true,"shadow.cljs.devtools.client.env.module_format":"goog","goog.LOCALE":"en","shadow.cljs.devtools.client.env.build_id":"lib","shadow.cljs.devtools.client.env.ignore_warnings":false,"goog.DEBUG":true,"shadow.cljs.devtools.client.env.log":true,"shadow.cljs.devtools.client.env.ssl":false,"shadow.cljs.devtools.client.env.enabled":true,"shadow.cljs.devtools.client.env.server_host":"localhost","shadow.cljs.devtools.client.env.worker_client_id":2,"goog.TRANSPILE":"never"}
 ;
 globalThis.CLOSURE_NO_DEPS = true;
 var COMPILED = false;

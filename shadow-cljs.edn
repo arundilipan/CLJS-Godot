@@ -2,16 +2,18 @@
  ["src"]
 
  :dependencies
- [[applied-science/js-interop "0.2.7"]]
+ [
+  [applied-science/js-interop "0.2.7"]]
 
  :builds
  {:lib {:target :esm
         :output-dir "public/js"
+        :runtime :custom
+        ;; :js-options
+        ;; {:resolve {"godot" {:target :global
+        ;;                     :global "godot"}}}
 
-        :js-options
-        {:resolve {"godot" {:target :global
-                            :global "godot"}}}
-
+        :devtools {:client-ns cljslib.devtools.client.godot}
         :modules
         {:demo {:exports {:hello cljslib.hello/hello
                           :printRandomVector cljslib.hello/print-random-vector}}}}}}

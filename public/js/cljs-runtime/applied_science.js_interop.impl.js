@@ -5,11 +5,11 @@ applied_science.js_interop.impl.lookup_sentinel = ({});
  * Returns `k` or, if it is a keyword, its name.
  */
 applied_science.js_interop.impl.wrap_key = (function applied_science$js_interop$impl$wrap_key(k){
-var G__6640 = k;
+var G__9185 = k;
 if((k instanceof cljs.core.Keyword)){
-return cljs.core.name(G__6640);
+return cljs.core.name(G__9185);
 } else {
-return G__6640;
+return G__9185;
 }
 });
 applied_science.js_interop.impl.in_QMARK__STAR_ = (function applied_science$js_interop$impl$in_QMARK__STAR_(k_STAR_,obj){
@@ -39,10 +39,10 @@ while(true){
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,end)) || ((obj__$1 == null)))){
 return obj__$1;
 } else {
-var G__6647 = (i + (1));
-var G__6648 = (obj__$1[cljs.core.nth.cljs$core$IFn$_invoke$arity$2(ks_STAR_,i)]);
-i = G__6647;
-obj__$1 = G__6648;
+var G__9190 = (i + (1));
+var G__9191 = (obj__$1[cljs.core.nth.cljs$core$IFn$_invoke$arity$2(ks_STAR_,i)]);
+i = G__9190;
+obj__$1 = G__9191;
 continue;
 }
 break;
@@ -52,8 +52,8 @@ return null;
 }
 });
 applied_science.js_interop.impl.get_in_STAR_ = (function applied_science$js_interop$impl$get_in_STAR_(var_args){
-var G__6642 = arguments.length;
-switch (G__6642) {
+var G__9187 = arguments.length;
+switch (G__9187) {
 case 2:
 return applied_science.js_interop.impl.get_in_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -94,14 +94,14 @@ return not_found;
  */
 applied_science.js_interop.impl.select_keys_STAR_ = (function applied_science$js_interop$impl$select_keys_STAR_(obj,ks_STAR_){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (m,k){
-var G__6643 = m;
+var G__9188 = m;
 if(applied_science.js_interop.impl.contains_QMARK__STAR_(obj,k)){
-var G__6644 = G__6643;
-(G__6644[k] = (obj[k]));
+var G__9189 = G__9188;
+(G__9189[k] = (obj[k]));
 
-return G__6644;
+return G__9189;
 } else {
-return G__6643;
+return G__9188;
 }
 }),({}),ks_STAR_);
 });
